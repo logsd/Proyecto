@@ -1,0 +1,71 @@
+.nosotros{
+  text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  height: 450px;
+  background-image: url(https://th.bing.com/th/id/R.b0ebb863686634c2d4bb2df3257cb24b?rik=kG4hRLlz5XkS6w&riu=http%3a%2f%2fimagenes.4ever.eu%2fdata%2fdownload%2fabstractos%2ffondo-morado%2c-lineas-197041.jpg&ehk=pPZfhteeBxe8CZreMFLN7ezQ88%2fcJGO8JpOH0zneUtU%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.nosotros h6{
+  text-align: center;
+  font-size: 30px;
+}
+
+.nosotros p{
+  text-align: center;
+}
+
+.nosotros h5{
+  text-align: center;
+}
+
+.container-p{
+  position: absolute;
+  left: 450px;
+  width: 440px;
+}
+
+h5{
+  font-size: 60px;
+}
+
+.img1{
+  width: 550px;
+  height: 380px;
+}
+
+.img2{
+  width: 550px;
+  height: 600px;
+}
+
+h1{
+  font-size: 25px;
+}
+
+@keyframes aparecer {
+  0%{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ocultar{
+  opacity: 0;
+}
+
+.animar{
+  animation: aparecer 1.3s;
+}
+
+
